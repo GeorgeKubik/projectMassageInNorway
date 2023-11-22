@@ -1,0 +1,22 @@
+.footer {
+	min-height: 50px;
+	padding: 20px 0;
+	&__wrapper {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		gap: 40px;
+	}
+	&__links {
+		display: flex;
+		align-items: center;
+		gap: 40px;
+	}
+	&__link {
+		font-weight: bold;
+		font-size: 14px;
+		line-height: 21px;
+		color: #000;
+		padding: 0;
+	}
+}

@@ -1,0 +1,27 @@
+@mixin before_circle {
+	&:before {
+		content: "";
+		width: 36px;
+		height: 36px;
+		background: $main-color;
+		border-radius: 100%;
+		position: absolute;
+		top: -9px;
+		left: -2px;
+		z-index: -1;
+	}
+}
+
+@mixin logo_before_circle {
+	&:before {
+		content: "";
+		width: 48px;
+		height: 48px;
+		background: $main-color;
+		border-radius: 100%;
+		position: absolute;
+		top: -9px;
+		left: -2px;
+		z-index: -1;
+	}
+}

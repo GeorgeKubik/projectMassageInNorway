@@ -1,0 +1,27 @@
+@media (max-width: 992px) {
+	.price {
+		&__wrapper {
+			justify-content: center;
+			padding: 0;
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	.price {
+		padding-top: 40px;
+		&__wrapper {
+			grid-template: minmax(44px, auto) / repeat(auto-fit, 245px);
+			margin-top: 20px;
+			padding-left: 20px;
+		}
+	}
+}
+
+@media (max-width: 320px) {
+	.price {
+		&__wrapper {
+			align-items: flex-end;
+		}
+	}
+}
